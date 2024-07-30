@@ -1,0 +1,41 @@
+.user-component__subtitle {display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.user-component__exclamation {height:16px;
+    width:16px;
+    border-radius: 50%;
+    border: solid 2px tomato;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.more-screen .icon-row {
+    margin-top: 35px;
+
+}
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions-title {margin-bottom: 30px;}
+
+.more-suggestions__icons{display: flex;}
+
+.more-suggestions__icon{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.more-suggestions__icon-image img{    
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    margin-bottom: 5px;}
+
+.more-suggestions__icon-text{font-size: 13px;}
