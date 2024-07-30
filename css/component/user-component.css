@@ -1,7 +1,8 @@
 .user-component {
-    display: flex;
+    justify-content: space-between;
 }
 
+.user-component,
 .user-component__column:first-child {
     display: flex;
     align-items: center;
@@ -28,15 +29,39 @@
     width: 80px;
     height: 80px;
     border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 
 .user-component__avatar--sm {
     width: 60px;
     height: 60px;
     border-radius: 25px;
+ 
 }
 
 .user-component__title-not-bold {
     font-size: 20px;
     font-weight: 300;   
 }
+
+.user-component__chat {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.user-component__chat_messssage {
+    margin-top: 10px;
+    color: rgba(0,0,0,0.5);
+    font-weight: 200;
+}
+
+
+
+.time { margin-bottom: 10px;
+    display: block;
+color: rgba(0,0,0,0.5);
+font-weight: 300;}
