@@ -48,5 +48,6 @@ body{
 .welcome-header__text {
     width: 60%;
     opacity: 0.6;
+    margin-bottom: 5px;
 }
 
